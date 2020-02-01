@@ -167,19 +167,19 @@ export const TopNav = styled(({ ...props }) => {
           <DashboardIcon />
           <Text>Dashboard</Text>
         </TopNavItem>
-        <TopNavItem href="/">
+        <TopNavItem href="./">
           <ProjectsIcon />
           <Text>Projects</Text>
         </TopNavItem>
-        <TopNavItem href="/">
+        <TopNavItem href="./">
           <ClientsIcon />
           <Text>Clients</Text>
         </TopNavItem>
-        <TopNavItem href="/">
+        <TopNavItem href="./">
           <TaskIcon />
           <Text>Task</Text>
         </TopNavItem>
-        <TopNavItem href="/">
+        <TopNavItem href="./">
           <BidsIcon />
           <Text>Bids</Text>
         </TopNavItem>
