@@ -163,7 +163,7 @@ export const TopNav = styled(({ ...props }) => {
         >
           <CloseIcon />
         </MenuCloseButton>
-        <TopNavItem active={true} href="/">
+        <TopNavItem active={true} href="./">
           <DashboardIcon />
           <Text>Dashboard</Text>
         </TopNavItem>
