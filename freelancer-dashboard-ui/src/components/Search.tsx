@@ -60,6 +60,11 @@ export const SearchComponent = styled.div`
     grid-template-columns: 1fr;
     grid-gap: 10px;
     height: auto;
+    padding: 30px 27px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 20px 15px;
   }
 `;
 

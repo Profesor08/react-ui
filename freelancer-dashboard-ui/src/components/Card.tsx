@@ -6,6 +6,10 @@ export const CardHeader = styled.div`
   align-items: center;
   justify-content: space-between;
   padding-right: 20px;
+
+  @media (max-width: 768px) {
+    padding-right: 15px;
+  }
 `;
 
 export const CardBody = styled(Container)`

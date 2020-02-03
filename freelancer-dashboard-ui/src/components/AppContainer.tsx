@@ -11,6 +11,10 @@ export const AppContainer = styled.div`
   @media (max-width: 1439px) {
     margin: 30px 15px;
   }
+
+  @media (max-width: 1099px) {
+    margin: 0;
+  }
 `;
 
 export const AppContent = styled.div`
